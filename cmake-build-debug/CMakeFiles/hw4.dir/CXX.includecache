@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/learn/cs/c++/hw/hw4/main.cpp
+iostream
+-
+matrix.h
+D:/learn/cs/c++/hw/hw4/matrix.h
+
+D:/learn/cs/c++/hw/hw4/matrix.cpp
+matrix.h
+D:/learn/cs/c++/hw/hw4/matrix.h
+iostream
+-
+
+D:/learn/cs/c++/hw/hw4/matrix.h
+iostream
+-
+
